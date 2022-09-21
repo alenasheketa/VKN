@@ -1,0 +1,8 @@
+import math 
+def func(c,d):
+    b = x*math.log10(c)+1/(math.pow(c,2)+math.pow(c,2)+0.3)-math.pow(math.e,6*c-d)
+    return(b)
+x=float(input("Введіть значення x:"))
+y=float(input("Введіть значення y:"))
+U=func(x,y)
+print("U=",U) 
